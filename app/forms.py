@@ -4,4 +4,4 @@ from wtforms.validators import Required
 
 class LoginForm(Form):
     openid = TextField('openid', validators = [Required()])
-    rememder_me = BooleanField('rememder_me', default = False )
+    remember_me = BooleanField('remember_me', default = False )
